@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import 'tachyons'
+import { Nav } from "react-bootstrap"
 
 function App() {
   
@@ -15,6 +16,12 @@ function App() {
     <>
       <div>
       <h1>Covid</h1>
+      <Routes>
+        <Route path="/" element= {<Home/>}/>
+        <Route path="/" element= {<Ermesek/>}/>
+        <Route path="/" element= {<Mermesek/>}/>
+        
+      </Routes>
       </div>
       
       
