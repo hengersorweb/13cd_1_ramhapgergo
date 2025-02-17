@@ -4,10 +4,10 @@ const Navbar = (()=>{
 
     return(
         <div>
-             <nav>
-                <Link to = '/'>Főoldal</Link>
-                <NavLink to = '/ermesek'>Az olimpia érmesei</NavLink>
-                <NavLink to = '/mermesek'>A magyar  olimpia érmesei</NavLink>
+             <nav className=" gray no-underline underline-hover">
+                <Link className="pa3 pa4-ns gray no-underline underline-hover " to = '/'>Főoldal</Link>
+                <NavLink className="pa3 pa4-ns gray no-underline underline-hover" to = '/ermesek'>Az olimpia érmesei</NavLink>
+                <NavLink className="pa3 pa4-ns gray no-underline underline-hover" to = '/mermesek'>A magyar  olimpia érmesei</NavLink>
              </nav>
         </div>
     )
