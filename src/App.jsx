@@ -16,10 +16,11 @@ function App() {
     <>
       <div>
       <h1>Covid</h1>
+      <Navbar/>
       <Routes>
         <Route path="/" element= {<Home/>}/>
-        <Route path="/" element= {<Ermesek/>}/>
-        <Route path="/" element= {<Mermesek/>}/>
+        <Route path="/ermesek" element= {<Ermesek/>}/>
+        <Route path="/mermesek" element= {<Mermesek/>}/>
         
       </Routes>
       </div>
